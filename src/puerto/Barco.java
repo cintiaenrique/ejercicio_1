@@ -1,5 +1,5 @@
 package puerto;
-public class Barco {
+public abstract class Barco {
     
     // Atributos
     public int matricula;
@@ -8,4 +8,6 @@ public class Barco {
     
     // Constructor
     public Barco (int matricula, int metrosEslora, int anioFabricacion) {}
+    
+    abstract int calcularModulo ();
 }
